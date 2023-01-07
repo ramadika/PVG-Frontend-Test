@@ -34,8 +34,8 @@ export default function index() {
           />
         ))}
       </div>
-      <div className="flex justify-start mt-4">
-        <div className="flex flex-col">
+      <div className="flex mt-4">
+        <div className="flex flex-col w-11/12">
           <div>
             <img src={Chart} alt="not found" />
           </div>
@@ -55,11 +55,11 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="rounded-[12px] shadow-[0px_0px_26px_#F0F1FF] p-[16px]">
+        <div className="rounded-[12px] shadow-[0px_0px_26px_#F0F1FF] p-[16px] w-4/12">
           <h5 className="text-[#7A7A7A]">
             <b>Top 5 Agents</b>
           </h5>
-          <div className="flex flex-col gap-4 mt-4">
+          <div className="flex flex-col gap-6 mt-4">
             {mock_agent.map((item: any, i: number) => (
               <CardAgent
                 title={item.title}

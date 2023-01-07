@@ -26,15 +26,15 @@ export default function Index(props: Props) {
   }, [status]);
 
   return (
-    <div className="w-[352px] h-[121px] rounded-[12px] shadow-[0px_0px_26px_#F0F1FF] p-[16px]">
-      <h5 className="text-[#7A7A7A] text-[16px]">
+    <div className="w-[300px] h-[101px] rounded-[12px] shadow-[0px_0px_26px_#F0F1FF] p-[16px]">
+      <h5 className="text-[#7A7A7A] text-[14px]">
         <b>{title}</b>
       </h5>
-      <h3 className="text-[30px]">
+      <h3 className="text-[24px]">
         <b>{value}</b>
       </h3>
       <div className="flex justify-end">
-        <h5 className={`${statColor} text-[12px]`}>
+        <h5 className={`${statColor} text-[10px]`}>
           <b>
             {statValue} &nbsp;
             {note}
