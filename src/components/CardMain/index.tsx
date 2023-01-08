@@ -26,7 +26,7 @@ export default function Index(props: Props) {
   }, [status]);
 
   return (
-    <div className="w-[300px] h-[101px] rounded-[12px] shadow-[0px_0px_26px_#F0F1FF] p-[16px]">
+    <div className="w-[304px] h-[101px] rounded-[12px] shadow-[0px_0px_26px_#F0F1FF] p-[16px]">
       <h5 className="text-[#7A7A7A] text-[14px]">
         <b>{title}</b>
       </h5>

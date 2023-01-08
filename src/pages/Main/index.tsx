@@ -37,7 +37,7 @@ export default function index() {
       <div className="flex mt-4">
         <div className="flex flex-col w-11/12">
           <div>
-            <img src={Chart} alt="not found" />
+            <img src={Chart} alt="not found" className="w-full object-cover" />
           </div>
           <div className="flex flex-col rounded-[12px] shadow-[0px_0px_26px_#F0F1FF] p-[16px]">
             <h5 className="text-[#7A7A7A]">

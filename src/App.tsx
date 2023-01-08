@@ -2,8 +2,6 @@ import React from "react";
 // components
 import BaseLayout from "./components/BaseLayout";
 import Main from "./pages/Main";
-// assets
-import "./App.css";
 
 function App() {
   return (
